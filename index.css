@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri:ital@1&family=Arvo&family=Bree+Serif&family=Darumadrop+One&family=Indie+Flower&family=Kalam:wght@300&family=Lobster+Two&family=Reem+Kufi+Fun:wght@500&display=swap');
+
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg-color: #faf9fe;
+}
+a{
+  text-decoration: none;
+  color: #434343;
+}
+li{
+  list-style-type: none;
+}
+
+
+
+nav{
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+.nav_container{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+a.navbar_brand{
+  color: #434343;
+  font-size: 35px;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Macondo', cursive; */
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Mogra', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Shadows Into Light', cursive; */
+}
+ul.navbar_menu{}
+ul.navbar_menu>li{
+  display: inline-block;
+  margin: 0 10px;
+}
+ul.navbar_menu>li:last-child{
+  margin-right: 0;
+}
+ul.navbar_menu>li>a{
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-size: 18px;
+  color: #434343;
+}
+
+
+
+
+
+.hero_btn{
+  font-size: 18px;
+  padding: 20px 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: inline-block;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book{
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.book_review{
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+.book_review_title{
+  font-size: 40px;
+  color: #434343;
+  font-family: 'Roboto Slab', serif;
+}
+.book_review_subtitle{
+  font-size: 15px;
+  color: #434343;
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+.book_review_box{
+  position: relative;
+}
+.arrow_container{
+  position: absolute;
+  /* background-color: #c8c2c2; */
+  background-color: lightgray;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  top: 40%;
+}
+.left_arrow_container{
+  left: -7%;
+}
+.right_arrow_container{
+  right: -7%;
+}
+.left_arrow, .right_arrow{
+  font-size: 30px;
+}
+.book_review_container{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.book_review_item{
+  width: 30%;
+}
+.book_review_item_box{
+  border-radius: 5px;
+  width: 100%;
+  height: 315px;
+  background-color: lightgray;
+  transition: 1s;
+}
+.book_review_item_box:hover{
+  box-shadow: 1px 1px 15px 0px rgb(200, 200, 200);
+}
+.book_image{
+  width: 100%;
+  height: 180px;
+}
+.book_image>img{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+.book_review_text_container{
+  width: 100%;
+  padding: 8px 15px;
+}
+.book_title{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color: #434343;
+}
+.book_reveiw_text{
+  text-align: justify;
+  color: gray;
+  font-family: 'Roboto Slab', serif;
+  line-height: 20px;
+  line-height: 25px;
+  padding: 7px 0;
+}
+.read_more_btn{
+  color: #434343;
+  font-weight: bold;
+  display: inline-block;
+}
+
+
+
+
+
+
+.contact{
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+.contact_container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+.contact_form{
+  width: 50%;
+}
+.contact_form>h1{
+  font-size: 40px;
+  color: #434343;
+  font-family: 'Macondo', cursive;
+  /* font-family: 'Pacifico', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Shadows Into Light', cursive; */
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Permanent Marker', cursive; */
+  /* font-family: 'Acme', sans-serif; */
+  /* font-family: 'Mate SC', serif; */
+  /* font-family: 'Kalam', cursive; */
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Zeyada', cursive; */
+
+}
+.contact_form>span{
+  font-size: 15px;
+  color: #434343;
+  /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Acme', sans-serif; */
+  /* font-family: 'Amiri', serif; */
+  /* font-family: 'Arvo', serif; */
+  /* font-family: 'Bree Serif', serif; */
+  /* font-family: 'Darumadrop One', cursive; */
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Kalam', cursive; */
+  /* font-family: 'Lobster Two', cursive; */
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+.contact_form_container{}
+.contact_form_container>form{
+  margin: 30px 0;
+}
+.contact_form_container>form>.form_item_container{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.contact_form_container>form>.form_item_container>input{
+  width: 49%;
+  border-radius: 5px;
+  outline: 1px solid lightgray;
+  border: none;
+  padding: 5px 10px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #434343;
+  font-size: 20px;
+}
+.contact_form_container>form>textarea{
+  resize: none;
+  display: block;
+  width: 100%;
+  height: 160px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 5px 8px;
+  line-height: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #434343;
+  font-size: 15px;
+  margin: 40px 0 15px 0;
+}
+
+.contact_form_container>form>textarea::-webkit-scrollbar {
+  width: 5px;
+}
+.contact_form_container>form>textarea::-webkit-scrollbar-track {
+  background: blue;
+  border-radius: 15px;
+}
+.contact_form_container>form>textarea::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 15px;
+}
+.contact_form_container>form>input[type='submit']{
+  display: inline-block;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 5px 15px;
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: 'Roboto Slab', serif;
+  color: #434343;
+  border: 3px solid lightgray;
+  transition: 1s all;
+}
+.contact_form_container>form>input[type='submit']:hover{
+  background-color: lightgray;
+  color: #434343;
+}
+.contact_list{
+  width: 49.5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.join_my_network{}
+.ping_msg{}
+.join_my_network, .ping_msg{
+  width: 49%;
+  margin: auto;
+}
+.join_my_network_title{}
+.ping_msg_title{}
+.join_my_network_title, .ping_msg_title{
+  color: #434343;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+}
+.network_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ping_box{
+  padding: 30px;
+}
+.network_box, .ping_box{
+  height: 290px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.ping_me_item{
+  display: block;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.ping_me_item:first-of-type{
+  margin-top: 10px;
+}
+.ping_me_item_icon{}
+.ping_me_item_text{
+  margin-left: 10px;
+}
+.network_box_item{
+  text-align: center;
+  width: 50%;
+  font-size: 65px;
+}
+.network_box_item_icon{}
+
+
+
+
+
+
+
+
+
+
+
+footer{}
+.footer_container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_item{
+  /* border: 1px solid lightgray; */
+}
+.footer_about{
+  width: 40%;
+}
+.footer_quick_links{
+  width: 15%;
+}
+.footer_join_network{
+  width: 20%;
+}
+.footer_engage{
+  width: 15%;
+}
+
+.footer_item>ul>li{
+  margin: 5px 0;
+}
+.footer_item>ul>li>a{
+  color: gray;
+}
+.footer_item>ul{
+  margin-top: 20px;
+}
+.footer_item>ul>li:first-child{
+  margin-top: 0;
+}
+.footer_item>ul>li:last-child{
+  margin-bottom: 0;
+}
+
+.footer_about>p{
+  text-align: justify;
+  padding-right: 18px;
+  color: gray;
+}
+.footer_item_title{
+  color: #434343;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+.footer_network_icon{
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.review{
+  padding: 90px 0;
+}
+.review_container{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.review_item{
+  background-color: lightgray;
+  height: 250px;
+  width: 32%;
+  border-radius: 15px;
+}
+
+.vector_container{
+  position: relative;
+  height: 80px;
+}
+.vector{
+  background-color: #afacac;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 37%;
+  top: -45px;
+}
+
+.review_text_container{
+  background-color: lightgray;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.review_text{
+  color: #434343;
+  /* text-align: justify; */
+  font-family: 'Roboto Slab', serif;
+}
+
+.client_name{
+  font-weight: bold;
+  margin: 10px 0;
+  color: rgb(49, 48, 48);
+  /* text-align: center; */
+}
+.client_country{
+  /* text-align: center;   */
+  color: gray;
+}
