@@ -33,10 +33,11 @@ li {
 }
 
 
-header{
+header {
   min-height: 100vh;
   border-bottom: 1px solid lightgrey;
 }
+
 nav {
   border-bottom: 1px solid lightgrey;
 }
@@ -131,7 +132,7 @@ ul.navbar_menu>li>a {
   color: #434343;
 }
 
-.banner_content>p{
+.banner_content>p {
   width: 90%;
   color: gray;
   text-align: justify;
@@ -155,7 +156,8 @@ ul.navbar_menu>li>a {
   border: 1px solid #434343;
   border-radius: 5px;
 }
-.banner_content>a{
+
+.banner_content>a {
   border: 1px solid #434343;
   color: #434343;
   border-radius: 5px;
@@ -173,6 +175,86 @@ ul.navbar_menu>li>a {
   width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+#services {
+  border-bottom: 1px solid lightgrey;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.services {
+  width: 80%;
+  margin: auto;
+}
+.services_title{
+  text-align: center;
+  font-size: 40px;
+  color: #434343;
+  font-family: 'Roboto Slab', serif;
+}
+.services_sub_title{
+  margin: 10px 0;
+  text-align: center;
+  font-weight: lighter;
+  color: #afacac;
+  font-family: 'Roboto Slab', serif;
+}
+.services_divider{
+  display: none;
+  border-radius: 100px;
+  height: 2px;
+  width: 150px;
+  background-color: #434343;
+  margin: auto;
+}
+
+.services_container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  background: linear-gradient(to right, #e4e3e6, #e4e3e6);
+  margin: 20px 0;
+  width: 30%;
+  text-align: center;
+  padding: 45px 25px;
+  border: 1px solid #afacac;
+  outline: 1px solid #afacac;
+  outline-offset: 1px;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.service>p {
+  color: #afacac;
+  font-family: 'Roboto Slab', serif;
+}
+
+.service>h3 {
+  color: #434343;
+  margin: 10px 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
+.service>i {
+  color: gray;
+  font-size: 35px;
+}
 
 
 
