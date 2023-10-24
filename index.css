@@ -186,30 +186,30 @@ ul.navbar_menu>li>a {
 
 
 
-#services {
+#make_me_exceptioanal {
   border-bottom: 1px solid lightgrey;
   padding-top: 50px;
   padding-bottom: 60px;
 }
 
-.services {
+.make_me_exceptioanal {
   width: 80%;
   margin: auto;
 }
-.services_title{
+.make_me_exceptioanal_title{
   text-align: center;
   font-size: 40px;
   color: #434343;
   font-family: 'Roboto Slab', serif;
 }
-.services_sub_title{
+.make_me_exceptioanal_sub_title{
   margin: 10px 0;
   text-align: center;
   font-weight: lighter;
   color: #afacac;
   font-family: 'Roboto Slab', serif;
 }
-.services_divider{
+.make_me_exceptioanal_divider{
   display: none;
   border-radius: 100px;
   height: 2px;
@@ -218,15 +218,15 @@ ul.navbar_menu>li>a {
   margin: auto;
 }
 
-.services_container {
+.make_me_exceptioanal_container {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.service {
-  background: linear-gradient(to right, #e4e3e6, #e4e3e6);
+.exception {
+  /* background: linear-gradient(to right, #e4e3e6, #e4e3e6); */
   margin: 20px 0;
   width: 30%;
   text-align: center;
@@ -239,19 +239,19 @@ ul.navbar_menu>li>a {
   border-bottom-left-radius: 0;
 }
 
-.service>p {
+.exception>p {
   color: #afacac;
   font-family: 'Roboto Slab', serif;
 }
 
-.service>h3 {
+.exception>h3 {
   color: #434343;
   margin: 10px 0;
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
 }
 
-.service>i {
+.exception>i {
   color: gray;
   font-size: 35px;
 }
