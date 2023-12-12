@@ -55,7 +55,7 @@ a.navbar_brand {
   color: #434343;
   font-size: 35px;
   /* font-family: 'Indie Flower', cursive; */
-  font-family: 'Permanent Marker', cursive;
+/* ========================  font-family: 'Permanent Marker', cursive; */
   /* font-family: 'Macondo', cursive; */
   /* font-family: 'Lobster', cursive; */
   /* font-family: 'Dancing Script', cursive; */
@@ -63,7 +63,7 @@ a.navbar_brand {
   /* font-family: 'Mogra', cursive; */
   /* font-family: 'Satisfy', cursive; */
   /* font-family: 'Shadows Into Light', cursive; */
-}
+/*}
 
 ul.navbar_menu {}
 
@@ -78,7 +78,7 @@ ul.navbar_menu>li:last-child {
 
 ul.navbar_menu>li>a {
   font-family: 'Roboto Slab', serif;
-  /* font-family: 'Titillium Web', sans-serif; */
+  /* font-family: 'Titillium Web', sans-serif; *//*
   font-size: 18px;
   color: #434343;
 } */
@@ -187,7 +187,7 @@ ul.navbar_menu>li>a {
 
 
 
-#make_me_exceptioanal {
+/* #make_me_exceptioanal {
   border-bottom: 1px solid lightgrey;
   padding-top: 50px;
   padding-bottom: 60px;
@@ -228,7 +228,7 @@ ul.navbar_menu>li>a {
 
 .exception {
   /* background: linear-gradient(to right, #e4e3e6, #e4e3e6); */
-  margin: 20px 0;
+/*  margin: 20px 0;
   width: 30%;
   text-align: center;
   padding: 45px 25px;
@@ -255,7 +255,7 @@ ul.navbar_menu>li>a {
 .exception>i {
   color: gray;
   font-size: 35px;
-}
+} */
 
 
 
