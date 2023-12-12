@@ -697,7 +697,7 @@ footer {}
 
 
 
-
+/* 
 .review {
   padding: 90px 0;
 }
@@ -708,14 +708,14 @@ footer {}
   margin: auto;
   width: 80%;
 }
-
+*/
 .review_item {
   background-color: lightgray;
-  height: 270px;
-  width: 32%;
+  /* height: 270px;
+  width: 32%; */
   border-radius: 15px;
 }
-
+/*
 .vector_container {
   position: relative;
   height: 80px;
@@ -739,7 +739,7 @@ footer {}
 
 .review_text {
   color: #434343;
-  /* text-align: justify; */
+  /* text-align: justify; *//*
   font-family: 'Roboto Slab', serif;
 }
 
@@ -747,10 +747,10 @@ footer {}
   font-weight: bold;
   margin: 10px 0;
   color: rgb(49, 48, 48);
-  /* text-align: center; */
+  /* text-align: center; *//*
 }
 
 .client_country {
-  /* text-align: center;   */
+  /* text-align: center;   *//*
   color: gray;
-}
+} */
