@@ -332,7 +332,8 @@
       <h1 class="book_review_title">Gallery</h1>
       <div class="flex pb-16">
         <div class="flex-1 h-64">
-          <img class="w-full h-full" src="./Online Preliminary Contest of ICPC Dhaka-2023.jpg" title="Online Preliminary Contest of ICPC Dhaka-2023" alt="">
+          <img class="w-full h-full" src="./Online Preliminary Contest of ICPC Dhaka-2023.jpg"
+            title="Online Preliminary Contest of ICPC Dhaka-2023" alt="">
           <p class="text-center">Online Preliminary Contest of ICPC Dhaka-2023</p>
         </div>
         <div class="flex-1 h-64">
@@ -357,48 +358,54 @@
 
 
 
-  <div class="contact">
-    <div class="contact_container">
-      <div class="contact_form">
-        <h1>Just say Hello!</h1>
-        <span>Let me know more about you!</span>
-        <div class="contact_form_container">
+  <div class="contact border-t border-b border-gray-300">
+    <div class="contact_container container max-w-screen-xl mx-2 md:mx-auto flex flex-col md:flex-row justify-between items-start py-12 gap-2">
+      <div class="contact_form w-full md:w-1/2">
+        <h1 class="text-4xl font-bold text-gray-700 mb-4">Just say Hello!</h1>
+        <span class="text-gray-500">Let me know more about you!</span>
+        <div class="contact_form_container mt-8">
           <form action="">
-            <div class="form_item_container">
-              <input type="text" name="" id="" placeholder="First Name">
-              <input type="text" name="" id="" placeholder="Last Name">
+            <div class="form_item_container flex justify-between mb-4">
+              <input type="text" name="" id="" placeholder="First Name"
+                class="w-1/2 border border-gray-300 px-3 py-2 rounded">
+              <input type="text" name="" id="" placeholder="Last Name"
+                class="w-1/2 border border-gray-300 px-3 py-2 rounded">
             </div>
-            <div class="form_item_container">
-              <input type="email" name="" id="" placeholder="Your Email">
-              <input type="text" name="" id="" placeholder="Subject">
+            <div class="form_item_container flex justify-between mb-4">
+              <input type="email" name="" id="" placeholder="Your Email"
+                class="w-1/2 border border-gray-300 px-3 py-2 rounded">
+              <input type="text" name="" id="" placeholder="Subject"
+                class="w-1/2 border border-gray-300 px-3 py-2 rounded">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Submit">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"
+              class="w-full border border-gray-300 px-3 py-2 rounded resize-none"></textarea>
+            <input type="submit" value="Submit"
+              class="block mt-4 bg-gray-700 text-white px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
           </form>
         </div>
       </div>
-      <div class="contact_list">
+      <div class="contact_list w-full flex flex-col gap-4 md:w-1/2">
         <div class="join_my_network">
-          <h1 class="join_my_network_title">Join My Network</h1>
-          <div class="network_box">
+          <h1 class="join_my_network_title text-4xl font-bold text-gray-700">Join My Network</h1>
+          <div class="network_box flex gap-2 mt-4">
             <a href="https://www.linkedin.com/in/masum1834e" class="network_box_item"><i
-                class="fa-brands fa-linkedin network_box_item_icon"></i></a>
+                class="fab fa-linkedin text-4xl"></i></a>
             <a href="https://github.com/masum184e" class="network_box_item"><i
-                class="fa-brands fa-square-github network_box_item_icon"></i></a>
+                class="fab fa-github-square text-4xl"></i></a>
             <a href="https://www.facebook.com/masum184e" class="network_box_item"><i
-                class="fa-brands fa-square-facebook network_box_item_icon"></i></a>
-            <a href="#" class="network_box_item"><i class="fa-brands fa-square-twitter network_box_item_icon"></i></a>
+                class="fab fa-facebook-square text-4xl"></i></a>
+            <a href="#" class="network_box_item"><i class="fab fa-twitter-square text-4xl"></i></a>
           </div>
         </div>
         <div class="ping_msg">
-          <h1 class="ping_msg_title">Ping Me Any Time</h1>
-          <div class="ping_box">
-            <a href="#" class="ping_me_item"><i class="fa-brands fa-square-whatsapp ping_me_item_icon"></i><span
-                class="ping_me_item_text">+8801400095352</span></a>
-            <a href="#" class="ping_me_item"><i class="fa-brands fa-telegram ping_me_item_icon"></i><span
-                class="ping_me_item_text">+8801400095352</span></a>
-            <a href="#" class="ping_me_item"><i class="fa fa-envelope ping_me_item_icon"></i><span
-                class="ping_me_item_text">masum184e@gmail.com</span></a>
+          <h1 class="ping_msg_title text-4xl font-bold text-gray-700">Ping Me Any Time</h1>
+          <div class="ping_box mt-4">
+            <a href="#" class="ping_me_item flex items-center"><i class="fab fa-whatsapp-square text-4xl"></i><span
+                class="ping_me_item_text ml-2">+8801400095352</span></a>
+            <a href="#" class="ping_me_item flex items-center"><i class="fab fa-telegram text-4xl"></i><span
+                class="ping_me_item_text ml-2">+8801400095352</span></a>
+            <a href="#" class="ping_me_item flex items-center"><i class="fa fa-envelope text-4xl"></i><span
+                class="ping_me_item_text ml-2">masum184e@gmail.com</span></a>
           </div>
         </div>
       </div>
@@ -408,59 +415,56 @@
 
 
 
-
-
-
-
-
   <footer class="bg-gray-900 text-white">
     <div class="container max-w-screen-xl mx-2 md:mx-auto flex flex-wrap justify-between py-12">
-        <div class="w-full md:w-2/5 lg:w-3/10">
-            <div class="mb-8">
-                <a href="#" class="text-xl font-bold text-white">Masum Billah</a>
-                <p class="text-gray-400 mt-4">Passionate about bringing ideas to life in the browser. The browser becomes my canvas, where I combine the artistry of design with the power of code, shaping immersive experiences that come alive both on the frontend and backend.</p>
-            </div>
+      <div class="w-full md:w-2/5 lg:w-3/10">
+        <div class="mb-8">
+          <a href="#" class="text-xl font-bold text-white">Masum Billah</a>
+          <p class="text-gray-400 mt-4">Passionate about bringing ideas to life in the browser. The browser becomes my
+            canvas, where I combine the artistry of design with the power of code, shaping immersive experiences that
+            come alive both on the frontend and backend.</p>
         </div>
-        <div class="w-full md:w-1/5 lg:w-1/5">
-            <h1 class="text-xl font-bold mb-4">Join My Network</h1>
-            <ul>
-                <li class="mb-2">
-                    <a href="https://www.linkedin.com/in/masum1834e" class="flex items-center text-gray-400">
-                        <i class="fab fa-linkedin mr-2"></i> Linkedin
-                    </a>
-                </li>
-                <li class="mb-2">
-                    <a href="https://github.com/masum184e" class="flex items-center text-gray-400">
-                        <i class="fab fa-github-square mr-2"></i> GitHub
-                    </a>
-                </li>
-                <li class="mb-2">
-                    <a href="https://www.facebook.com/masum184e" class="flex items-center text-gray-400">
-                        <i class="fab fa-facebook-square mr-2"></i> Facebook
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="w-full md:w-1/5 lg:w-1/10">
-            <h1 class="text-xl font-bold mb-4">Quick Links</h1>
-            <ul>
-                <li class="mb-2"><a href="#" class="text-gray-400">Home</a></li>
-                <li class="mb-2"><a href="#" class="text-gray-400">About</a></li>
-                <li class="mb-2"><a href="#" class="text-gray-400">Book Review</a></li>
-                <li class="mb-2"><a href="#" class="text-gray-400">Blog</a></li>
-            </ul>
-        </div>
-        <div class="w-full md:w-1/5 lg:w-1/10">
-            <h1 class="text-xl font-bold mb-4">Engage Me</h1>
-            <ul>
-                <li class="mb-2"><a href="#" class="text-gray-400">Hire Me</a></li>
-                <li class="mb-2"><a href="#" class="text-gray-400">Exceptions</a></li>
-                <li class="mb-2"><a href="#" class="text-gray-400">Pricing</a></li>
-                <li class="mb-2"><a href="#" class="text-gray-400">Portfolio</a></li>
-            </ul>
-        </div>
+      </div>
+      <div class="w-full md:w-1/5 lg:w-1/5">
+        <h1 class="text-xl font-bold mb-4">Join My Network</h1>
+        <ul>
+          <li class="mb-2">
+            <a href="https://www.linkedin.com/in/masum1834e" class="flex items-center text-gray-400">
+              <i class="fab fa-linkedin mr-2"></i> Linkedin
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="https://github.com/masum184e" class="flex items-center text-gray-400">
+              <i class="fab fa-github-square mr-2"></i> GitHub
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.facebook.com/masum184e" class="flex items-center text-gray-400">
+              <i class="fab fa-facebook-square mr-2"></i> Facebook
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/5 lg:w-1/10">
+        <h1 class="text-xl font-bold mb-4">Quick Links</h1>
+        <ul>
+          <li class="mb-2"><a href="#" class="text-gray-400">Home</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400">About</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400">Book Review</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400">Blog</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/5 lg:w-1/10">
+        <h1 class="text-xl font-bold mb-4">Engage Me</h1>
+        <ul>
+          <li class="mb-2"><a href="#" class="text-gray-400">Hire Me</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400">Exceptions</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400">Pricing</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400">Portfolio</a></li>
+        </ul>
+      </div>
     </div>
-</footer>
+  </footer>
 
 
 

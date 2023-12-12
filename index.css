@@ -386,7 +386,7 @@ ul.navbar_menu>li>a {
 
 
 
-
+/* 
 .contact {
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
@@ -423,7 +423,7 @@ ul.navbar_menu>li>a {
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Courgette', cursive; */
   /* font-family: 'Zeyada', cursive; */
-
+/*
 }
 
 .contact_form>span {
@@ -437,7 +437,7 @@ ul.navbar_menu>li>a {
   /* font-family: 'Darumadrop One', cursive; */
   /* font-family: 'Indie Flower', cursive; */
   /* font-family: 'Kalam', cursive; */
-  /* font-family: 'Lobster Two', cursive; */
+  /* font-family: 'Lobster Two', cursive; *//*
   font-family: 'Reem Kufi Fun', sans-serif;
 }
 
@@ -584,7 +584,7 @@ ul.navbar_menu>li>a {
   font-size: 65px;
 }
 
-.network_box_item_icon {}
+.network_box_item_icon {} */
 
 
 
@@ -592,7 +592,7 @@ ul.navbar_menu>li>a {
 
 
 
-
+/* 
 
 
 
@@ -609,6 +609,8 @@ footer {}
 
 .footer_item {
   /* border: 1px solid lightgray; */
+/*
+
 }
 
 .footer_about {
@@ -663,6 +665,20 @@ footer {}
 .footer_network_icon {
   margin-right: 5px;
 }
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
