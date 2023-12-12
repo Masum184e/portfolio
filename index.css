@@ -158,8 +158,9 @@ ul.navbar_menu>li>a {
 }
 
 .banner_content>a {
+  background-color: #434343;
   border: 1px solid #434343;
-  color: #434343;
+  color: white;
   border-radius: 5px;
   padding: 5px 10px;
   display: inline-block;
@@ -694,7 +695,7 @@ footer {}
 
 .review_item {
   background-color: lightgray;
-  height: 250px;
+  height: 270px;
   width: 32%;
   border-radius: 15px;
 }
