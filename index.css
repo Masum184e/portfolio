@@ -266,8 +266,23 @@ ul.navbar_menu>li>a {
 
 
 
+.book {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
 
+.book_review {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
 
+.book_review_title {
+  font-size: 40px;
+  color: #434343;
+  font-family: 'Roboto Slab', serif;
+}
+/* 
 
 .book {
   border-top: 1px solid lightgray;
@@ -298,7 +313,7 @@ ul.navbar_menu>li>a {
 
 .arrow_container {
   position: absolute;
-  /* background-color: #c8c2c2; */
+  /* background-color: #c8c2c2; *//*
   background-color: lightgray;
   color: white;
   height: 50px;
@@ -383,7 +398,7 @@ ul.navbar_menu>li>a {
 }
 
 
-
+ */
 
 
 /* 
