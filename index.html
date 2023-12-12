@@ -16,45 +16,85 @@
 </head>
 
 <body>
-  <header>
+
+  <div class="navbar bg-base-100 max-w-screen-xl mx-2 md:mx-auto">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li class="mr-4"><a href="#" class="font-serif text-gray-700">Home</a></li>
+          <li class="mr-4"><a href="#" class="font-serif text-gray-700">About</a></li>
+          <li class="mr-4"><a href="#" class="font-serif text-gray-700">Services</a></li>
+          <li><a href="#" class="font-serif text-gray-700">Contact</a></li>
+        </ul>
+      </div>
+      <a href="#" class="navbar_brand text-2xl text-gray-700 font-bold">Masum Billah</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <!-- <ul class="menu menu-horizontal px-1">
+        <li class="mr-4"><a href="#" class="font-serif text-gray-700">Home</a></li>
+        <li class="mr-4"><a href="#" class="font-serif text-gray-700">About</a></li>
+        <li class="mr-4"><a href="#" class="font-serif text-gray-700">Services</a></li>
+        <li><a href="#" class="font-serif text-gray-700">Contact</a></li>
+      </ul> -->
+    </div>
+    <div class="navbar-end hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li class="mr-4"><a href="#" class="font-serif text-gray-700">Home</a></li>
+        <li class="mr-4"><a href="#" class="font-serif text-gray-700">About</a></li>
+        <li class="mr-4"><a href="#" class="font-serif text-gray-700">Services</a></li>
+        <li><a href="#" class="font-serif text-gray-700">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- <header class="border-b border-gray-300">
     <nav>
-      <div class="nav_container">
-        <a href="" class="navbar_brand">Masum Billah</a>
-        <ul class="navbar_menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+      <div class="nav_container flex items-center justify-between w-80 mx-auto py-2">
+        <a href="#" class="navbar_brand text-2xl text-gray-700 font-bold">Masum Billah</a>
+        <ul class="navbar_menu flex">
+          <li class="mr-4"><a href="#" class="font-serif text-gray-700">Home</a></li>
+          <li class="mr-4"><a href="#" class="font-serif text-gray-700">About</a></li>
+          <li class="mr-4"><a href="#" class="font-serif text-gray-700">Services</a></li>
+          <li><a href="#" class="font-serif text-gray-700">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <div class="banner">
-      <div class="banner_container">
-        <div class="banner_container_content">
-          <p><i class="fa-solid fa-hand-peace"></i> HEY THERE!</p>
-          <div class="banner_content_container">
-            <div class="banner_content">
-              <h1>I am Masum Billah</h1>
-              <h3>A Full Stack Developer</h3>
-              <p>An enthusiastic full-stack developer specializing in MERN stack with a passion for bringing ideas to
-                life in the digital realm.</p>
-              <div class="banner_icon_container">
-                <a href="https://github.com/masum184e"><i class="banner_icon fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/masum1834e"><i
-                    class="banner_icon fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.facebook.com/masum184e"> <i class="banner_icon fa-brands fa-facebook-f"></i></a>
-                <!-- <i class="banner_icon fa-brands fa-twitter"></i> -->
-              </div>
-              <a href="/Masum Billah.pdf" download>Download Resume</a>
+  </header> -->
+
+
+  <div class="banner max-w-screen-xl mx-2 md:mx-auto">
+    <div class="banner_container py-8">
+      <div class="banner_container_content">
+        <p class="text-3xl"><i class="fas fa-hand-peace"></i> HEY THERE!</p>
+        <div class="banner_content_container flex items-center">
+          <div class="banner_content flex-1 pt-8">
+            <h1 class="text-5xl text-gray-700 font-bold">I am Masum Billah</h1>
+            <h3 class="text-gray-700">A Full Stack Developer</h3>
+            <p class="w-11/12 text-gray-500 text-justify mt-8">An enthusiastic full-stack developer specializing in MERN
+              stack with a passion for bringing ideas to life in the digital realm.</p>
+            <div class="banner_icon_container flex gap-2 mt-2">
+              <a class="text-2xl border rounded p-2" href="https://github.com/masum184e" class="banner_icon"><i
+                  class="fab fa-github"></i></a>
+              <a class="text-2xl border rounded p-2" href="https://www.linkedin.com/in/masum1834e"
+                class="banner_icon"><i class="fab fa-linkedin-in"></i></a>
+              <a class="text-2xl border rounded p-2" href="https://www.facebook.com/masum184e" class="banner_icon"><i
+                  class="fab fa-facebook-f"></i></a>
+              <!-- <i class="banner_icon fa-brands fa-twitter"></i> -->
             </div>
-            <div class="banner_vector">
-              <img src="./banner.png" alt="">
-            </div>
+            <a href="/Masum Billah.pdf" download
+              class="bg-gray-700 border border-gray-700 text-white rounded px-4 py-2 mt-4 inline-block font-semibold text-base">Download
+              Resume</a>
+          </div>
+          <div class="banner_vector flex-1 hidden md:block">
+            <img src="./banner.png" alt="">
           </div>
         </div>
       </div>
     </div>
-  </header>
+  </div>
 
   <div id="make_me_exceptioanal">
     <div class="make_me_exceptioanal">
@@ -359,7 +399,8 @@
 
 
   <div class="contact border-t border-b border-gray-300">
-    <div class="contact_container container max-w-screen-xl mx-2 md:mx-auto flex flex-col md:flex-row justify-between items-start py-12 gap-2">
+    <div
+      class="contact_container container max-w-screen-xl mx-2 md:mx-auto flex flex-col md:flex-row justify-between items-start py-12 gap-2">
       <div class="contact_form w-full md:w-1/2">
         <h1 class="text-4xl font-bold text-gray-700 mb-4">Just say Hello!</h1>
         <span class="text-gray-500">Let me know more about you!</span>

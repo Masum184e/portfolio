@@ -33,8 +33,8 @@ li {
 }
 
 
-header {
-  min-height: 100vh;
+/* header {
+  /* min-height: 100vh; *//*
   border-bottom: 1px solid lightgrey;
 }
 
@@ -81,7 +81,7 @@ ul.navbar_menu>li>a {
   /* font-family: 'Titillium Web', sans-serif; */
   font-size: 18px;
   color: #434343;
-}
+} */
 
 
 
@@ -93,7 +93,7 @@ ul.navbar_menu>li>a {
 
 
 
-
+/* 
 .banner {}
 
 .banner_container {
@@ -174,7 +174,7 @@ ul.navbar_menu>li>a {
 
 .banner_vector>img {
   width: 100%;
-}
+} */
 
 
 
