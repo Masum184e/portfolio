@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri:ital@1&family=Arvo&family=Bree+Serif&family=Darumadrop+One&family=Indie+Flower&family=Kalam:wght@300&family=Lobster+Two&family=Reem+Kufi+Fun:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #faf9fe;
+}
+
+a {
+  text-decoration: none;
+  color: #434343;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+header {
+  border-bottom: 1px solid lightgrey;
+}
+
+nav {
+  border-bottom: 1px solid lightgrey;
+}
+
+.nav_container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.navbar_brand {
+  color: #434343;
+  font-size: 35px;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Macondo', cursive; */
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Mogra', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Shadows Into Light', cursive; */
+}
+
+ul.navbar_menu {}
+
+ul.navbar_menu>li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.navbar_menu>li:last-child {
+  margin-right: 0;
+}
+
+ul.navbar_menu>li>a {
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-size: 18px;
+  color: #434343;
+}
+
+
+
+
+
+
+
+
+
+
+.project {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.project_container {
+  display: flex;
+}
+
+.project_description {
+  text-align: justify;
+  padding-left: 20px;
+  color: gray;
+  margin-top: 30px;
+}
+
+.project_vector_container {
+  width: 50%;
+}
+
+.project_vector_container>img {
+  width: 100%;
+  height: 300px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+.project_details_container {
+  width: 50%;
+  text-align: right;
+  position: relative;
+}
+
+.project_title {
+  color: #434343;
+  font-size: 55px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.project_subtitle {
+  color: gray;
+  font-family: 'Roboto Slab', serif;
+}
+
+.project_technology{
+  margin-top: 10px;
+}
+
+.project_technology>span {
+  background: gray;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+}
+
+.project_hyperlink{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn {
+  border: 1px solid #434343;
+  color: #434343;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  border-top: 1px solid lightgrey;
+}
+
+.footer_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_item {
+  /* border: 1px solid lightgray; */
+}
+
+.footer_about {
+  width: 40%;
+}
+
+.footer_quick_links {
+  width: 15%;
+}
+
+.footer_join_network {
+  width: 20%;
+}
+
+.footer_engage {
+  width: 15%;
+}
+
+.footer_item>ul>li {
+  margin: 5px 0;
+}
+
+.footer_item>ul>li>a {
+  color: gray;
+}
+
+.footer_item>ul {
+  margin-top: 20px;
+}
+
+.footer_item>ul>li:first-child {
+  margin-top: 0;
+}
+
+.footer_item>ul>li:last-child {
+  margin-bottom: 0;
+}
+
+.footer_about>p {
+  text-align: justify;
+  padding-right: 18px;
+  color: gray;
+}
+
+.footer_item_title {
+  color: #434343;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.footer_network_icon {
+  margin-right: 5px;
+}
