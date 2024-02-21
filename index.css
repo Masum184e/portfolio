@@ -33,8 +33,8 @@ li {
 }
 
 
-/* header {
-  /* min-height: 100vh; *//*
+header {
+  min-height: 100vh;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -55,7 +55,7 @@ a.navbar_brand {
   color: #434343;
   font-size: 35px;
   /* font-family: 'Indie Flower', cursive; */
-/* ========================  font-family: 'Permanent Marker', cursive; */
+  font-family: 'Permanent Marker', cursive;
   /* font-family: 'Macondo', cursive; */
   /* font-family: 'Lobster', cursive; */
   /* font-family: 'Dancing Script', cursive; */
@@ -63,7 +63,7 @@ a.navbar_brand {
   /* font-family: 'Mogra', cursive; */
   /* font-family: 'Satisfy', cursive; */
   /* font-family: 'Shadows Into Light', cursive; */
-/*}
+}
 
 ul.navbar_menu {}
 
@@ -78,10 +78,10 @@ ul.navbar_menu>li:last-child {
 
 ul.navbar_menu>li>a {
   font-family: 'Roboto Slab', serif;
-  /* font-family: 'Titillium Web', sans-serif; *//*
+  /* font-family: 'Titillium Web', sans-serif; */
   font-size: 18px;
   color: #434343;
-} */
+}
 
 
 
@@ -93,7 +93,7 @@ ul.navbar_menu>li>a {
 
 
 
-/* 
+
 .banner {}
 
 .banner_container {
@@ -158,9 +158,8 @@ ul.navbar_menu>li>a {
 }
 
 .banner_content>a {
-  background-color: #434343;
   border: 1px solid #434343;
-  color: white;
+  color: #434343;
   border-radius: 5px;
   padding: 5px 10px;
   display: inline-block;
@@ -174,7 +173,7 @@ ul.navbar_menu>li>a {
 
 .banner_vector>img {
   width: 100%;
-} */
+}
 
 
 
@@ -187,7 +186,7 @@ ul.navbar_menu>li>a {
 
 
 
-/* #make_me_exceptioanal {
+#make_me_exceptioanal {
   border-bottom: 1px solid lightgrey;
   padding-top: 50px;
   padding-bottom: 60px;
@@ -228,7 +227,7 @@ ul.navbar_menu>li>a {
 
 .exception {
   /* background: linear-gradient(to right, #e4e3e6, #e4e3e6); */
-/*  margin: 20px 0;
+  margin: 20px 0;
   width: 30%;
   text-align: center;
   padding: 45px 25px;
@@ -255,34 +254,19 @@ ul.navbar_menu>li>a {
 .exception>i {
   color: gray;
   font-size: 35px;
-} */
-
-
-
-
-
-
-
-
-
-
-.book {
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
 }
 
-.book_review {
-  width: 80%;
-  margin: auto;
-  padding: 50px 0;
-}
 
-.book_review_title {
-  font-size: 40px;
-  color: #434343;
-  font-family: 'Roboto Slab', serif;
-}
-/* 
+
+
+
+
+
+
+
+
+
+
 
 .book {
   border-top: 1px solid lightgray;
@@ -313,7 +297,7 @@ ul.navbar_menu>li>a {
 
 .arrow_container {
   position: absolute;
-  /* background-color: #c8c2c2; *//*
+  /* background-color: #c8c2c2; */
   background-color: lightgray;
   color: white;
   height: 50px;
@@ -398,10 +382,10 @@ ul.navbar_menu>li>a {
 }
 
 
- */
 
 
-/* 
+
+
 .contact {
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
@@ -438,7 +422,7 @@ ul.navbar_menu>li>a {
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Courgette', cursive; */
   /* font-family: 'Zeyada', cursive; */
-/*
+
 }
 
 .contact_form>span {
@@ -452,7 +436,7 @@ ul.navbar_menu>li>a {
   /* font-family: 'Darumadrop One', cursive; */
   /* font-family: 'Indie Flower', cursive; */
   /* font-family: 'Kalam', cursive; */
-  /* font-family: 'Lobster Two', cursive; *//*
+  /* font-family: 'Lobster Two', cursive; */
   font-family: 'Reem Kufi Fun', sans-serif;
 }
 
@@ -599,7 +583,7 @@ ul.navbar_menu>li>a {
   font-size: 65px;
 }
 
-.network_box_item_icon {} */
+.network_box_item_icon {}
 
 
 
@@ -607,7 +591,7 @@ ul.navbar_menu>li>a {
 
 
 
-/* 
+
 
 
 
@@ -624,8 +608,6 @@ footer {}
 
 .footer_item {
   /* border: 1px solid lightgray; */
-/*
-
 }
 
 .footer_about {
@@ -681,7 +663,6 @@ footer {}
   margin-right: 5px;
 }
 
- */
 
 
 
@@ -700,19 +681,6 @@ footer {}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 .review {
   padding: 90px 0;
 }
@@ -723,14 +691,14 @@ footer {}
   margin: auto;
   width: 80%;
 }
-*/
+
 .review_item {
   background-color: lightgray;
-  /* height: 270px;
-  width: 32%; */
+  height: 250px;
+  width: 32%;
   border-radius: 15px;
 }
-/*
+
 .vector_container {
   position: relative;
   height: 80px;
@@ -754,7 +722,7 @@ footer {}
 
 .review_text {
   color: #434343;
-  /* text-align: justify; *//*
+  /* text-align: justify; */
   font-family: 'Roboto Slab', serif;
 }
 
@@ -762,10 +730,10 @@ footer {}
   font-weight: bold;
   margin: 10px 0;
   color: rgb(49, 48, 48);
-  /* text-align: center; *//*
+  /* text-align: center; */
 }
 
 .client_country {
-  /* text-align: center;   *//*
+  /* text-align: center;   */
   color: gray;
-} */
+}
