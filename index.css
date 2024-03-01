@@ -592,6 +592,7 @@ ul.navbar_menu>li>a {
 .view_more{
   font-size: 15px;
   font-weight: 600;
+  /* text-decoration: underline; */
   font-family: 'Roboto Slab';
 }
 
