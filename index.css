@@ -584,6 +584,24 @@ ul.navbar_menu>li>a {
 
 
 
+.title_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.view_more{
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Roboto Slab';
+}
+
+
+
+
+
+
+
+
 
 
 
